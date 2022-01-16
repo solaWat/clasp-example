@@ -1,4 +1,4 @@
-import { Env } from './env';
+import { Env } from "./env";
 
 function setProperties() {
   PropertiesService.getScriptProperties().setProperties(Env.Properties);

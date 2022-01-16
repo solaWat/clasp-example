@@ -6,13 +6,11 @@ https://github.com/google/clasp
 
 ```
 npm install -g @google/clasp
-npm install
+yarn install
 clasp login
 ```
 
 ## USAGE
-
-
 
 1. [参考記事](https://creators-note.chatwork.com/entry/gas-google-form)を読みながら手順を実行します。
    - フォームへの登録項目は適宜変更ください
@@ -31,5 +29,5 @@ clasp open
 ## TEST
 
 ```
-npm test
+yarn test
 ```
