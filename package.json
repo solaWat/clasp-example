@@ -1,4 +1,5 @@
 {
+  "license": "MIT",
   "dependencies": {
     "@types/google-apps-script": "^1.0.41"
   },
@@ -15,6 +16,9 @@
     "typescript": "^4.5.4"
   },
   "scripts": {
-    "test": "jest"
+    "lint": "eslint 'src/**/*.ts' && prettier --check '**/*.{js,ts,json}'",
+    "lintfix": "eslint --fix 'src/**/*.ts' && prettier --write '**/*.{js,ts,json}'",
+    "test": "jest --watch",
+    "test:ci": "jest --ci"
   }
 }

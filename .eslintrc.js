@@ -27,8 +27,12 @@ module.exports = {
         "import/order": "error",
         "@typescript-eslint/no-unused-vars": [
           "error",
-          { varsIgnorePattern: "testGreeter" },
+          {
+            varsIgnorePattern:
+              "testGreeter|sendReport|setProperties|getProperties",
+          },
         ],
+        "@typescript-eslint/no-namespace": "off",
       },
     },
   ],
